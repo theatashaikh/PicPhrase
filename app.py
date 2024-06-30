@@ -76,6 +76,7 @@ example_list = [["examples/" + example] for example in os.listdir("examples") if
 description = """
 <h2>Important Guidelines:</h2>
 <strong>Image Examples:</strong> Refer to the examples below to understand the type of images suitable for captioning.
+</br>
 """
 
 # Gradio interface setup
