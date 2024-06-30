@@ -74,20 +74,8 @@ example_list = [["examples/" + example] for example in os.listdir("examples") if
 
 
 description = """
-<h2>This model was trained using: </h2>
-<ul>
-<li>InceptionV3 (Feature extraction)</li>
-<li>LSTM (Caption generation)</li>
-<li>Flickr30k (dataset)</li>
-</ul>
 <h2>Important Guidelines:</h2>
 <strong>Image Examples:</strong> Refer to the examples below to understand the type of images suitable for captioning.
-
-<h2>About me:</h2>
-<p>My name is Ata Shaikh, I love making deep learning models.</p>
-<p>Visit my linkedin: <a href="https://www.linkedin.com/in/theatashaikh">https://www.linkedin.com/in/theatashaikh</a></p>
-<p>Visit my github: <a href="https://github.com/theatashaikh">https://github.com/theatashaikh</a></p>
-</br>
 """
 
 # Gradio interface setup
